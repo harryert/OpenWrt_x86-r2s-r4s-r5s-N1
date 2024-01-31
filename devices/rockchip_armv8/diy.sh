@@ -29,7 +29,7 @@ sed -i -e 's,kmod-r8168,kmod-r8169,g' target/linux/rockchip/image/armv8.mk
 
 sed -i 's/DEFAULT_PACKAGES +=/DEFAULT_PACKAGES += fdisk lsblk kmod-drm-rockchip/' target/linux/rockchip/Makefile
 
-sed -i 's/Ariaboard/光影猫/' target/linux/rockchip/image/armv8.mk
+sed -i 's/Ariaboard/韦一笑/' target/linux/rockchip/image/armv8.mk
 
 cp -Rf $SHELL_FOLDER/diy/* ./
 
